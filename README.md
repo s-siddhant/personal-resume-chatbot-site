@@ -1,14 +1,14 @@
-# Siddhant Sharma – Personal Website with RAG Chatbot
+# Siddhant Sharma – Portfolio Website with Resume Chatbot
 
-A simple, mobile-friendly one-page personal website featuring a Retrieval-Augmented Generation (RAG) chatbot trained on my resume. Users can interact with the chatbot to ask questions about my experience, skills, and projects.
+A modern, responsive portfolio website featuring a chatbot powered by RAG (Retrieval-Augmented Generation) technology. The chatbot is trained on my resume and can answer questions about my experience, skills, and projects.
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Frontend**: HTML + CSS (static site)
+- **Frontend**: HTML, CSS, JavaScript
 - **Backend**: FastAPI
-- **RAG Agent**: LangChain + FAISS + Groq API
+- **AI/ML**: LangChain, FAISS, OpenAI/Groq API
 - **Deployment**: Render
 
 ---
@@ -16,69 +16,83 @@ A simple, mobile-friendly one-page personal website featuring a Retrieval-Augmen
 ## 📁 Project Structure
 
 ```
-personal-site/
-├── backend/
-│   ├── main.py               # FastAPI app
-│   ├── rag_agent.py          # RAG logic with LangChain + Groq
-│   ├── resume.txt            # Plain text version of resume
-│   ├── requirements.txt
-│   └── Procfile              # Render deployment
+resume-portfolio-website/
 ├── frontend/
-│   ├── index.html            # One-page site
-│   └── chatbot.js (optional)
-├── .env                      # API key (not committed)
-├── README.md
+│   ├── index.html           # Main portfolio page
+│   ├── styles/
+│   │   └── main.css        # Styling
+│   ├── js/
+│   │   └── chat.js         # Chat functionality
+│   └── assets/
+│       └── SIDDHANT SHARMA.pdf
+├── backend/
+│   ├── main.py             # FastAPI application
+│   ├── rag_agent.py        # RAG implementation
+│   ├── resume.txt          # Training data
+│   └── requirements.txt
+├── .env                    # API keys (not committed)
+└── README.md
 ```
 
 ---
 
-## 🚀 Getting Started (Locally)
+## ✨ Features
 
-### 1. Clone and Install
+- Responsive design that works on desktop and mobile
+- Dark theme for better readability
+- Interactive project cards with "Read More" functionality
+- Real-time chat interface with AI-powered responses
+- RAG system for accurate resume-based Q&A
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone and Install Dependencies
 ```bash
-git clone https://github.com/yourusername/personal-site.git
-cd personal-site/backend
-pip install -r requirements.txt
+git clone <repository-url>
+cd resume-portfolio-website
+pip install -r backend/requirements.txt
 ```
 
-### 2. Add your `.env`
+### 2. Configure Environment
+Create a `.env` file in the backend directory:
 ```env
-GROQ_API_KEY=your-groq-api-key-here
+GROQ_API_KEY=your-groq-api-key
+OPENAI_API_KEY=your-openai-api-key
 ```
 
-### 3. Run Backend
+### 3. Run the Application
 ```bash
+cd backend
 uvicorn main:app --reload
 ```
 
-### 4. Open `frontend/index.html`
-- Make sure to replace the iframe `src` with your deployed backend URL (or `localhost` during development).
+### 4. Access the Website
+Open `http://localhost:8000` in your browser
 
 ---
 
-## 🌐 Deployment on Render
-
-1. Push code to a GitHub repo
-2. Create a **Web Service** on [Render](https://render.com/)
-3. Set:
-   - **Build Command**: `pip install -r requirements.txt`
-   - **Start Command**: `uvicorn main:app --host 0.0.0.0 --port $PORT`
-   - **Environment Variable**: `GROQ_API_KEY=your-key`
-4. Link frontend to Render URL in `iframe` in `index.html`
+## 💬 Example Chat Queries
+- "What are your main technical skills?"
+- "Tell me about your experience with NLP"
+- "Describe your time series forecasting project"
 
 ---
 
-## 💬 Example Questions for Chatbot
-- "What are Siddhant's top skills?"
-- "Where did Siddhant work before 2023?"
-- "Tell me about the RAG agent project."
+## 🔐 Security Note
+- API keys are stored in `.env` file (not committed to repository)
+- CORS is enabled for development
+- Frontend assets are served through FastAPI's StaticFiles
 
 ---
 
 ## 📄 Credits
-- Built by **Siddhant Sharma**
-- [LinkedIn](https://www.linkedin.com/in/sharmasid14/) | [GitHub](https://github.com/s-siddhant)
+Built by **Siddhant Sharma**
+- [LinkedIn](https://www.linkedin.com/in/sharmasid14/)
+- [GitHub](https://github.com/s-siddhant)
 
 ---
 
-Feel free to fork and customize this for your own portfolio site!
+## 📝 License
+This project is licensed under the Apache License 2.0
