@@ -1,0 +1,53 @@
+SIDDHANT SHARMA    
+Email: sid.sharma.14@outlook.com | Phone:343-989-1429 | Location: Oshawa, Ontario
+Linkedin: linkedin.com/in/sharmasid14/ | Github: github.com/s-siddhant 
+
+
+Strong skillset in design and development; able to build, test, and deploy machine learning models with an emphasis on NLP applications. Brings full-stack and cloud integration expertise (experience with AWS and render). Developed and deployed end-to-end machine learning solutions, with a strong foundation in algorithms and statistical modeling. Hands-on experience with NLP projects and relevant tools / frameworks. Excellent problem-solving skills and the ability to work independently in a fast-paced, innovative environment. 
+
+Python, SQL, Pandas, NumPy, Matplotlib, Tableau, LangChain, LlamaIndex, Time Series Forecasting, Classification Deep Learning, Machine Learning, Feature Engineering, AWS EC2, FastAPI, REST API Development, Docker, Fastai
+Stremlit, Git and Adobe Creative Suite (Photoshop, Illustrator, InDesign & After Effects)
+
+TECHNICAL PROJECTS
+
+Retrieval-Augmented Generation (RAG) Agent | Demo: http://35.182.40.143:8501
+•	Used full stack AI RAG agent to enable users to upload documents, ask questions, and get answers or summaries.
+•	Implemented backend in FastAPI with OpenAI models. API development includes session-based architecture and temporary file cleanup for secure and efficient operations.
+•	Utilized Docker for containerized deployment, Streamlit interface for frontend and AWS EC2 for hosting.
+
+Time Series Forecasting with XGBoost | Demo: m4-weekly-frontend.onrender.com
+•	Developed a time series forecasting solution using the M4 weekly dataset, leveraging advanced feature engineering (cyclic, lagged, and rolling features), stationarity analysis and global XGBoost model with RandomizedSearchCV.
+•	Designed a robust pipeline for data preprocessing, model deployment, and API integration using FastAPI for real-time predictions, hosted on Render.
+•	Incorporated Population Stability Index (PSI) and feature importance analysis for model evaluation & drift detection.
+
+Data-Driven Reddit Opinion Mining System | Demo: http://lumicore.duckdns.org
+•	Worked with a team to develop a full-stack web application to evaluate user opinions by analyzing user-generated content from Reddit and Google search results. 
+•	Helped in engineering a robust data pipeline integrating PostgreSQL for persistent storage and efficient query handling, enabling large-scale analysis of user comments from Reddit.
+•	Applied advanced NLP techniques for sentiment classification, keyword extraction, and summarization, producing actionable insights from aggregated data.
+
+EXPERIENCE 
+
+Protiviti | Sr. Graphic Design Specialist | 2021 – 2023
+•	Streamlined workflows by developing new templates and maintaining an organized digital asset management system, improving team efficiency and project consistency.
+Deloitte | Sr. Graphic Design Specialist | 2019 – 2021
+•	Created client presentations, infographics & marketing collateral, helping stakeholders to communicate effectively.
+•	Managed multiple projects under tight deadlines, effectively collaborating with stakeholders to deliver impactful visuals for campaigns, events, and thought leadership content.
+Other agencies | Art Director and Graphic designer | 2016 – 2019
+•	Directed the design execution for publications and B2B events, managing stakeholder expectations and delivering projects on time with creative solutions that aligned with business goals.
+
+Senior Graphic Design Specialist, Protiviti	2021 – 2023
+Senior Graphic Design Specialist, Deloitte 	2019 – 2021
+Art Director / Graphic Designer, Other Agencies 2016 – 2019
+•	Streamlined workflows by developing new templates and maintaining an organized digital asset management system, improving team efficiency and project consistency.
+•	Created client presentations, infographics and marketing collateral, helping stakeholders to communicate.
+•	Managed multiple projects under tight deadlines, effectively collaborating with stakeholders to deliver impactful visuals for campaigns, events, and thought leadership content.
+•	Directed the design execution for publications and B2B events, managing stakeholder expectations and delivering projects on time with creative solutions that aligned with business goals.
+
+EDUCATION / TRAINING
+
+Artificial Intelligence Analysis, Design & Implementation Postgraduate Certificate		    Expected Aug 2025
+Durham College   GPA: 5.0 / 5.0
+Fastai Practical Deep Learning for Coders - Part 1 					 	                                                  2024
+User Experience Design Postgraduate Diploma, St. Lawrence College					                  2024
+Deep Learning Specialization, Coursera						                                                                  2022 
+Bachelor’s - Technology in Computer Science Engineering, Indraprastha University		                                  2016

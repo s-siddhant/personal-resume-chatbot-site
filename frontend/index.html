@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Siddhant Sharma – AI Developer</title>
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+  <header>
+    <h1>👋 Hi, I'm Siddhant Sharma</h1>
+    <p class="tagline">AI & NLP Developer | Designer | Full-Stack ML Enthusiast</p>
+    <p>Strong skillset in design and development; able to build, test, and deploy machine learning models with an emphasis on NLP applications. Brings full-stack and cloud integration expertise (experience with AWS and render). Developed and deployed end-to-end machine learning solutions, with a strong foundation in algorithms and statistical modeling. Hands-on experience with NLP projects and relevant tools / frameworks. Excellent problem-solving skills and the ability to work independently in a fast-paced, innovative environment.</p>
+  </header>
+
+  <section>
+    <h2>🚀 Projects</h2>
+    <div class="project">
+      <strong>🧠 <a href="http://lumicore.duckdns.org">Reddit Opinion Mining</a></strong>
+      <div class="project-description">
+        <span class="short-description">Analyzes Reddit discussions using NLP and ML. Built with BERT, GPT, and PostgreSQL.</span>
+        <div class="full-description">
+          <ul>
+            <li>Developed a full-stack web application to evaluate user opinions by analyzing user-generated content from Reddit and Google search results.</li>
+            <li>Helped in engineering a robust data pipeline integrating PostgreSQL for persistent storage and efficient query handling, enabling large-scale analysis of user comments from Reddit.</li>
+            <li>Applied advanced NLP techniques for sentiment classification, keyword extraction, and summarization, producing actionable insights from aggregated data.</li>
+          </ul>
+        </div>
+      </div>
+      <button class="read-more-btn">Read More</button>
+    </div>
+    <div class="project">
+      <strong>📈 <a href="https://m4-weekly-frontend.onrender.com/">Time Series Forecasting</a></strong>
+      <div class="project-description">
+        <span class="short-description">Forecasting model using XGBoost, deployed with FastAPI on Render.</span>
+        <div class="full-description">
+          <ul>
+            <li>Developed a time series forecasting solution using the M4 weekly dataset, leveraging advanced feature engineering (cyclic, lagged, and rolling features), stationarity analysis and global XGBoost model with RandomizedSearchCV.</li>
+            <li>End to end model building: Designed a robust pipeline for data preprocessing, model deployment, and API integration using FastAPI for real-time predictions, hosted on Render.</li>
+            <li>Incorporated Population Stability Index (PSI) and feature importance analysis for model evaluation & drift detection.</li>
+          </ul>
+        </div>
+      </div>
+      <button class="read-more-btn">Read More</button>
+    </div>
+    <div class="project">
+      <strong>🗂️ <a href="http://35.182.40.143:8501/">RAG Agent Demo</a></strong>
+      <div class="project-description">
+        <span class="short-description">Document QA using Llama index + OpenAI, hosted on AWS EC2.</span>
+        <div class="full-description">
+          <ul>
+            <li>Goal is to make document interaction efficient using full stack AI RAG agent. Users can upload a document, ask questions, and get answers or summaries.</li>
+            <li>Implemented backend in FastAPI with OpenAI models. API development includes session-based architecture and temporary file cleanup for secure and efficient operations.</li>
+            <li>Utilized Docker for containerized deployment, Streamlit interface for frontend and AWS EC2 for hosting.</li>
+          </ul>
+        </div>
+      </div>
+      <button class="read-more-btn">Read More</button>
+    </div>
+  </section>
+
+  <section>
+    <h2>📄 Resume</h2>
+    <p><a href="/assets/SIDDHANT SHARMA.pdf" target="_blank">View My Resume</a></p>
+  </section>
+
+  <section>
+    <h2>📬 Contact</h2>
+    <ul>
+      <li>Email: <a href="mailto:sid.sharma.14@outlook.com">sid.sharma.14@outlook.com</a></li>
+      <li><a href="https://www.linkedin.com/in/sharmasid14/">LinkedIn</a></li>
+      <li><a href="https://github.com/s-siddhant">GitHub</a></li>
+    </ul>
+  </section>
+
+  <button class="chat-toggle" onclick="toggleChat()">
+    💬 Chat with my Resume
+  </button>
+
+  <div class="chat-window" id="chatWindow">
+    <div class="chat-header">
+        <span>💬 Chat with my Resume</span>
+        <span class="chat-close" onclick="toggleChat()">✕</span>
+    </div>
+    <div class="chat-content">
+        <div id="messages">
+            <div class="message bot-message">
+                Hi! I'm a chatbot trained on Siddhant's resume. Ask me anything!
+            </div>
+        </div>
+        <form id="input-form" onsubmit="sendMessage(event)">
+            <input type="text" id="message" placeholder="Ask about my resume..." autocomplete="off">
+            <button type="submit">Send</button>
+        </form>
+    </div>
+  </div>
+
+  <script src="/js/chat.js"></script>
+</body>
+</html>
